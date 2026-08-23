@@ -12,4 +12,9 @@ rgs = {
     rg_location = "south india"
 
   }
+  rgs03 = {
+    rg_name     = "rk_rg03"
+    rg_location = "central india"
+
+  }
 }

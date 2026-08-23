@@ -13,7 +13,7 @@ permissions:
 jobs:
   terraform:
     runs-on: ubuntu-latest
-    
+
     defaults:
       run:
         working-directory: ./Enviornment/Dev
@@ -54,9 +54,8 @@ jobs:
 
       # 7. Terraform Plan
       - name: Terraform Plan
-        run: |
-          terraform plan \
-            -var="subscription_id=0b430b86-4372-414d-a228-fbc54442f4eb"
+        run: terraform plan
+          
 
       # 8. Terraform Apply
     #   - name: Terraform Apply

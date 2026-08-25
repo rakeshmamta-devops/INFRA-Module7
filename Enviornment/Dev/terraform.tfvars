@@ -17,4 +17,9 @@ rgs = {
     rg_location = "central india"
 
   }
+  rgs04 = {
+    rg_name     = "rk_rg04"
+    rg_location = "west us"
+
+  }
 }
